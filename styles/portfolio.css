@@ -35,6 +35,38 @@ p {
     line-height: 30px;
 }
 
+.logo {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+nav {
+padding:20px 0;
+}
+nav ul {
+    padding:0;
+    margin:0;
+}
+
+nav li {
+    display:inline;
+    list-style: none;
+    line-height:42px;
+    margin-left:15px;
+}
+
+nav a {
+    text-decoration:none;
+    color:#272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+    color: var(--branding-color);
+}
+
+
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -126,6 +158,10 @@ p {
     .content-container {
         text-align:center;
         padding:0;
+    }
+
+    nav a {
+        font-size: 12px;
     }
 }
 
