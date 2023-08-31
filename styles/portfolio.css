@@ -72,6 +72,16 @@ p {
     font-family: var(--default-font-family);
 }
 
+.content-container h3 {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    line-height:1.5;
+    margin:20px 0 0;
+}
+.content-container p{
+    font-size:14px;
+}
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
