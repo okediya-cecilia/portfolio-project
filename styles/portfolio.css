@@ -29,6 +29,10 @@ h2 {
     font-size: 64px;
 }
 
+h4 {
+    font-size:48px;
+}
+
 p {
     font-weight: normal;
     font-size: 16px;
@@ -163,5 +167,51 @@ nav a:hover, nav li.active a {
     nav a {
         font-size: 12px;
     }
+
+    h4 {
+        font-size:26px;
+    }
+       footer .contact-box {
+            padding: 30px;
+        }
 }
 
+footer {
+    margin:50px;
+}
+
+.email-link {
+text-decoration:none;
+color:black;
+font-size: 24px;
+}
+
+.social-links a {
+margin: 0 20px;
+color: var(--branding-color);
+background: var(--secondary-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius:50%;
+
+}
+
+.social-links a:hover {
+    color: white;
+    background:var(--branding-color);
+    transition: all 150ms ease-in-out;
+}
+
+footer.email-link:hover {
+    color: var(--branding-color);
+}
+
+.contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+.contact-box p {
+    margin:0;
+}
